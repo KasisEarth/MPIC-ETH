@@ -60,7 +60,7 @@
 		- OVSLAMMA : 	oversampling factor for LAMMA
 		- MAXBAND : 	starting radius around template for cross correlation (search area)
 		- MAXSCALE : 	maximal grid size in LAMMA (cxc, zncc)
-		- TOLERANCE : tolerance which is added to the search radius in LAMMA
+		- TOLERANCE :  tolerance which is added to the search radius in LAMMA
 		- WIN :  	template size in FFT algorithm
 		- OVSFFT :  	oversampling in FFT algorithm
 		- FFTSTEP : 	step size in the fft algorithm (comparable to NODEDIST)
@@ -79,7 +79,8 @@
 		- VEC1 : 	the window size diveded by VEC1 is the threshold which is used to filter magnitudes in the vector filter
 		- VEC2 : 	the window size divided by VEC2 is the threshold which is used to filter DX and DY in the vector filter
 		- VEC3 : 	threshold in the vector filter that is used to filter direciton changes in a 3x3 neighbourhood (in rad)
-		- MAXDECORR : 	threshold, more decorrelated results in the masked results indicate that the pairing of the images is bad and the results are neglected
+		- MAXDECORR : 	threshold, more decorrelated results in the masked results indicate that the pairing of the images is bad 
+				and the results are neglected
 		- MASKNAME : 	name of the mask file in the additional_data folder, e.g. 'mask.csv'
 
 	Georectification -------------------------------------------------------------------------------------------------------
