@@ -17,7 +17,8 @@
 
 1) Place input images into "input" folder (examples are included in "input" folder)
 
-####	! Image names must be in the format "YYYYMMDDThhmmss" for time series creation !
+####	  ! Image names must be in the format "YYYYMMDDThhmmss" for time series creation !
+
 
 2) Open main file "MPIC" and customize settings:
 
