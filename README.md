@@ -135,23 +135,23 @@
 	- 000_extracted_decorrelation file that summarizes the number of decorrelated points per day from the time series
 
 	- GIF: 		
-	    when time series creation (timeser) is enabled
-			distribution of velocity and cumulative displacement in 2D and 3D for every day saved as a jpg and merged to a GIF
+	    	- when time series creation (timeser) is enabled
+		- distribution of velocity and cumulative displacement in 2D and 3D for every day saved as a jpg and merged to a GIF
 
 	- images:
-	    when single pairwise image matching results are plotted (plottype = 1 or plottype = 2)
-			visualized the results of the single pairwise images in plots
-			images from the input folder are saved as greyscale (for GIF creation)
+		(when single pairwise image matching results are plotted (plottype = 1 or plottype = 2))
+		- visualized the results of the single pairwise images in plots
+		- images from the input folder are saved as greyscale (for GIF creation)
 
 	- inclination:	
-	    inclination of the 3D time series displacement results as .csv
-			and visualization of inclination as a GIF
-			0_inclination-*POINTNAME* files with the extracted inclination measurements for specific points defined in the MPIC.py file
+	    	- inclination of the 3D time series displacement results as .csv
+		- and visualization of inclination as a GIF
+		- 0_inclination-*POINTNAME* files with the extracted inclination measurements for specific points defined in the MPIC.py file
 
 	- time-series:	
-	    "hours" folder with the mean displacement measured per hour (=velocity)
-			TS-YYYY-MM-DD files with mean displacement per hour for every day
-			CUM-TS-YYYY-MM-DD files with the cumulated displacement for every day
-			3D-CUM-TS-YYYY-MM-DD files with the georectified cumulated displacement for every day
-			3D-extracted-CUM-*POINTNAME* files with extracted cumulative 3D displacement for specific points defined in the MPIC.py file
+	    	- "hours" folder with the mean displacement measured per hour (=velocity)
+		- TS-YYYY-MM-DD files with mean displacement per hour for every day
+		- CUM-TS-YYYY-MM-DD files with the cumulated displacement for every day
+		- 3D-CUM-TS-YYYY-MM-DD files with the georectified cumulated displacement for every day
+		- 3D-extracted-CUM-*POINTNAME* files with extracted cumulative 3D displacement for specific points defined in the MPIC.py file
 
