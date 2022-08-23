@@ -15,9 +15,13 @@
 ## External/integrated functions/algorithms:
 
 - This routine bases on the basic workflow of DIC_FFT_ETHZ (https://github.com/bickelmps/DIC_FFT_ETHZ/)
+	
 	Citation: Bickel, V.T.; Manconi, A.; Amann, F. Quantitative Assessment of Digital Image Correlation Methods to Detect and Monitor Surface Displacements of Large Slope Instabilities. Remote Sens. 2018, 10, 865.
+	
 	Integrated functions/algorithms:
+		
 		dftregistration.m by Manuel Guizar-Sicairos, Samuel T. Thurman, and James R. Fienup, "Efficient subpixel image registration algorithms," Opt. Lett. 33, 156-158 (2008). Parts of their code has been taken from: J.R. Fienup and A.M. Kowalczyk, "Phase retrieval for a complex-valued object by using a low-resolution image," J. Opt. Soc. Am. A 7, 450-458 (1990). Online: https://de.mathworks.com/matlabcentral/fileexchange/18401-efficient-subpixel-image-registration-by-cross-correlation (Status: May 5th, 2018) License included in "DIC/dft_registration_license.txt"
+		
 		wallis_filter.m, underlying principle taken from Baltsavias, E. P. "Multiphoto geometrically constrained matching." Doctoral Thesis, ETH Zurich, (1991).
 
 
