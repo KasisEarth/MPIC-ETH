@@ -48,7 +48,7 @@
 		- WIN : 	block size of the wallis filter, standard: 32px 
 		- TARM : 	target mean value in a block after wallis filtering, standard: 150
 		- TARS : 	target standard deviation in block after wallis filtering, standard: 150
-		- BRIGHTNESS : 	brightness enforcing constant of wallis filter
+		- BRIGHTNESS : brightness enforcing constant of wallis filter
 		- CONTRAST : 	contrast enforcing constant of wallis filter
 
 	DIC ------------------------------------------------------------------------------------------------------------------
@@ -60,7 +60,7 @@
 		- OVSLAMMA : 	oversampling factor for LAMMA
 		- MAXBAND : 	starting radius around template for cross correlation (search area)
 		- MAXSCALE : 	maximal grid size in LAMMA (cxc, zncc)
-		- TOLERANCE :  	tolerance which is added to the search radius in LAMMA
+		- TOLERANCE : tolerance which is added to the search radius in LAMMA
 		- WIN :  	template size in FFT algorithm
 		- OVSFFT :  	oversampling in FFT algorithm
 		- FFTSTEP : 	step size in the fft algorithm (comparable to NODEDIST)
@@ -72,7 +72,7 @@
 				when MAG = None --> MAG = half the window size by default.
 		- MFWS : 	mean filter window size for arithmettic mean filter
 		- CUT : 	the window size divieded by CUT gives the value that will be used to cutDX and DY values that are larger than WIN/CUT
-        			CUT = 0 means no cut off
+        		CUT = 0 means no cut off
 		- PLTMIN : 	minimum 2D displacement magnidute that is visualized in the plotting
 		- PLTMAX : 	maximum 2D displacement magnitude that is visualized in the left plot
 				Only for visualization, when not defined (set PLTMAX = None), it will be the 10th largest displacement measured
