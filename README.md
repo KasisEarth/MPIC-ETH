@@ -134,8 +134,8 @@
 	- csv file for every filtered pairwise image matching result
 	- 000_extracted_decorrelation file that summarizes the number of decorrelated points per day from the time series
 
-	- GIF: 		
-	    	- when time series creation (timeser) is enabled
+	- GIF: 	
+		(when time series creation (timeser) is enabled)
 		- distribution of velocity and cumulative displacement in 2D and 3D for every day saved as a jpg and merged to a GIF
 
 	- images:
