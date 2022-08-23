@@ -37,7 +37,10 @@
 
 1) Place input images into "input" folder (examples are included in "input" folder)
 
-####	  ! Image names must be in the format "YYYYMMDDThhmmss" for time series creation !
+	#### ! Image names must be in the format "YYYYMMDDThhmmss" for time series creation !
+	
+	- if the 2D displacements should be georectified, place three world coordinate matrices (X,Y,Z) as *.csv files into the "additional_data" folder
+	- if the results should be masked, place the mask as *.csv file into the "additional_data" folder
 
 
 2) Open main file "MPIC" and customize settings:
