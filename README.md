@@ -2,6 +2,8 @@
 
 #### Multiple Pairwise Image Correlation (MPIC) approach using state-of-the-art digital image correlation algorithms (FFT, ZNCC, and CXC)
 
+#### Quantification of Displacements of Features within multiple input images and creation of time series of displacement rates and cumulative displacements. The resulting displacement measurements can be converted from measurements in the image plane (2D) to global 3D displacements with three world coordinate matrices (not created with this tool).
+
 #### Processing Steps:
 
 - Preprocessing: Wallis Filter, OR image representation
