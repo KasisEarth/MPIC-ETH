@@ -14,7 +14,7 @@
 
 ## External/integrated functions/algorithms:
 
-- This routine bases on the basic workflow of DIC_FFT_ETHZ (https://github.com/bickelmps/DIC_FFT_ETHZ/)
+1) This routine bases on the basic workflow of DIC_FFT_ETHZ (https://github.com/bickelmps/DIC_FFT_ETHZ/)
 	
 	Citation: Bickel, V.T.; Manconi, A.; Amann, F. Quantitative Assessment of Digital Image Correlation Methods to Detect and Monitor Surface Displacements of Large Slope Instabilities. Remote Sens. 2018, 10, 865.
 	
@@ -24,6 +24,14 @@
 		
 	- wallis (in preprocessing.py script), underlying principle taken from Baltsavias, E. P. "Multiphoto geometrically constrained matching." Doctoral Thesis, ETH Zurich, (1991).
 
+2) The implementation of the ZNCC and CXC algorithms base on the LAMMA routine (https://github.com/niccolodematteis/LAMMA/)
+
+	Citation: Dematteis, Niccolò, Daniele Giordan, Bruno Crippa, and Oriol Monserrat. 2022. “Fast Local Adaptive Multiscale Image Matching Algorithm for Remote Sensing Image Correlation.” Computers & Geosciences 159:104988. doi: 10.1016/j.cageo.2021.104988
+
+3) The cropping function for the co-registration (in dic.py script) bases on a feed on Stackoverflow
+
+	Source: Samplebias via Stackoverflow, posted May 26th 2011, retrieved February 2022
+		https://stackoverflow.com/questions/6136588/image-cropping-using-python/8696558
 
 ## Instructions
 
